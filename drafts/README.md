@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | `2026-09-republish/발행완료_R_ericdothome_3posts.html` | R1~R3 | 에릭 자료노트 (카테고리 시험자료) | 2026-08-30 발행 완료 | 라이브: https://eric.dothome.co.kr/sangsudo-gwanmang-gichul-220/ · https://eric.dothome.co.kr/cbco-gichul-210/ · https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/. 원문은 posts_ericdothome_wordpress.html로 이관 |
 | `2026-09-knou/A1_hadesyi_knou_hub.html` | A1 | hadesyi 방송통신 게시판 | 즉시 (목표 9/10) | 초안 — 링크 15개 검증 필요 |
-| `2026-09-knou/A2_ericdothome_social_welfare_early_childhood.html` | A2 | 에릭 자료노트 (카테고리 방송통신대) | A1 다음 날 | 초안 — 링크·과목 개설 여부 검증 필요 |
+| `2026-09-knou/발행완료_A2_ericdothome_social_welfare_early_childhood.html` | A2 | 에릭 자료노트 (카테고리 방송통신대) | 2026-08-30 발행 완료 | 라이브: https://eric.dothome.co.kr/knou-social-welfare-early-childhood-2026-2/. 세일즈 링크 5개는 미검증 → 클릭 확인 후 필요 시 REST API로 교체 |
 | `2026-09-knou/A3_eric_liberal_arts.html` | A3 | eric (블로거) | A2 다음 날 | 초안 — 링크 검증 필요 |
 | `2026-09-dokhaksa/B1_ericdothome_patch_after_result.html` | B1 | 에릭 자료노트 독학사 글 https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/ (post 113) 패치 | 9/7 발표 직후 | 초안 — 일정 검증 완료, REST API로 content 교체 가능 |
 | `2026-09-dokhaksa/B2_hadesyi_stage4_checklist.html` | B2 | hadesyi 리포트 게시판 | 9/15 전후 | 초안 — "독학사 4단계" 링크만 검증 (독학사 글 내부 링크는 반영 완료) |
