@@ -6,11 +6,11 @@
 
 오후의레포트(hadeslee.dothome.co.kr)가 호스팅 기간 만료로 사라져 8/17 발행 3건(상수도관망·CBCO·독학사)이 유실됐습니다. 워드프레스 채널은 **에릭 자료노트(https://eric.dothome.co.kr, 관리자 /wp-admin/)** 로 교체합니다.
 
-- [ ] **P0-1** `drafts/2026-09-republish/R_ericdothome_3posts.html`의 R1→R2→R3를 하루 1~2건 발행 (카테고리 '시험자료' 신설, 제목 유지, 링크는 검증 완료분이라 재검증 불필요)
-- [ ] **P0-2** 새 URL을 README 게시 이력·`posts_ericdothome_wordpress.html` 주석에 기록, `drafts/2026-09-dokhaksa/B2`와 `drafts/2026-09-knou/A2`의 `[독학사 글 새 URL]`/`[허브 글 URL]` 반영
-- [ ] **P0-3** 세 글 하단에 서로의 링크 + 8/19 방통대 가이드 글(https://eric.dothome.co.kr/knou-gwajemul/) 링크 추가 (BACKLOG C3)
+- [x] **P0-1** 2026-08-30 REST API로 3건 발행 완료 (카테고리 시험자료 47 신설): https://eric.dothome.co.kr/sangsudo-gwanmang-gichul-220/ · https://eric.dothome.co.kr/cbco-gichul-210/ · https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/
+- [x] **P0-2** README 게시 이력·posts_ericdothome_wordpress.html(라이브 원문으로 교체)·B1/B2 초안에 새 URL 반영. A2의 [허브 글 URL]은 A1 발행 후
+- [x] **P0-3** 세 글에 '함께 보면 좋은 글'(서로 + 8/8 기출·족보 글) 추가 완료
 
-완료 기준: 3건이 에릭 자료노트에 라이브, README 게시 이력에 새 URL 기록.
+완료 (2026-08-30). 남은 것: 9/7 B1 패치(post 113).
 
 ## P1. 9월 시즌 선점 — 방송통신대 중간과제물 (지금 바로, 목표 9/10 라이브)
 
