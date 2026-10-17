@@ -1,22 +1,17 @@
-# drafts — 발행 전 초안
+# drafts — 현재 수정안과 과거 초안
 
-브라우저·로그인 없이 작성한 초안입니다. 각 파일 상단 주석에 **발행 전 할 일**(링크 검증, [자료 설명] 채우기, 내부 링크 삽입)과 **근거**가 적혀 있습니다. 발행이 끝나면 본문을 `posts_<채널>.html`로 옮기고, 이 폴더의 파일은 삭제하거나 `발행완료_` 접두어를 붙여 둡니다.
+**현재 작업은 [2026-10-resume 패키지](2026-10-resume/README.md)입니다.** 수정안 4개(A7·B4·B5·C4)와 신규 글 1개(B3)는 아직 블로그에 반영하지 않았습니다.
 
-> 2026-08-30 채널 변경: 오후의레포트(hadeslee.dothome.co.kr)가 기간 만료로 사라져 워드프레스 채널은 **에릭 자료노트(https://eric.dothome.co.kr, 관리자 /wp-admin/)** 로 바뀌었습니다. 만료로 유실된 3건의 재발행 패키지가 `2026-09-republish/`에 있습니다.
+| 보관 파일 | 확인한 상태 | 다시 사용할 때 |
+|---|---|---|
+| `2026-09-knou/A1_hadesyi_knou_hub.html` | 9/2 발행 확인: hadesyi qa/47 | 중복 발행 금지, A7 삽입 |
+| `2026-09-knou/발행완료_A2_ericdothome_social_welfare_early_childhood.html` | 8/30 발행, 9/2 내부 링크 수정 확인 | post 117에 A7 삽입 |
+| `2026-09-knou/A3_eric_liberal_arts.html` | 9/2 발행, 9/8 수정 확인 | 기존 URL에 A7 삽입 |
+| `2026-09-dokhaksa/B1_ericdothome_patch_after_result.html` | 기존 post 113에 보강 반영 확인 | 과거 패치 재적용 금지, B4로 교정 |
+| `2026-09-dokhaksa/B2_hadesyi_stage4_checklist.html` | 9/6 발행 확인: hadesyi free/412 | 중복 발행 금지, B5로 교정 |
+| `2026-09-hospital/C1_eric_hospital_posts_enriched.html` | 병원 5건 보강·상호 링크 반영 확인 | 당시 초안과 현재 글은 다를 수 있음. 한림대 C4 우선 |
+| `2026-09-republish/발행완료_R_ericdothome_3posts.html` | 8/30 재발행 완료 | 과거 보관본 |
 
-| 파일 | BACKLOG | 채널 | 발행 시점 | 상태 |
-|---|---|---|---|---|
-| `2026-09-republish/발행완료_R_ericdothome_3posts.html` | R1~R3 | 에릭 자료노트 (카테고리 시험자료) | 2026-08-30 발행 완료 | 라이브: https://eric.dothome.co.kr/sangsudo-gwanmang-gichul-220/ · https://eric.dothome.co.kr/cbco-gichul-210/ · https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/. 원문은 posts_ericdothome_wordpress.html로 이관 |
-| `2026-09-knou/A1_hadesyi_knou_hub.html` | A1 | hadesyi 방송통신 게시판 | 즉시 (목표 9/10) | 초안 — 링크 15개 검증 필요 |
-| `2026-09-knou/발행완료_A2_ericdothome_social_welfare_early_childhood.html` | A2 | 에릭 자료노트 (카테고리 방송통신대) | 2026-08-30 발행 완료 | 라이브: https://eric.dothome.co.kr/knou-social-welfare-early-childhood-2026-2/. 세일즈 링크 5개는 미검증 → 클릭 확인 후 필요 시 REST API로 교체 |
-| `2026-09-knou/A3_eric_liberal_arts.html` | A3 | eric (블로거) | A2 다음 날 | 초안 — 링크 검증 필요 |
-| `2026-09-dokhaksa/B1_ericdothome_patch_after_result.html` | B1 | 에릭 자료노트 독학사 글 https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/ (post 113) 패치 | 9/7 발표 직후 | 초안 — 일정 검증 완료, REST API로 content 교체 가능 |
-| `2026-09-dokhaksa/B2_hadesyi_stage4_checklist.html` | B2 | hadesyi 리포트 게시판 | 9/15 전후 | 초안 — "독학사 4단계" 링크만 검증 (독학사 글 내부 링크는 반영 완료) |
-| `2026-09-hospital/C1_eric_hospital_posts_enriched.html` | C1·C2 | eric 기존 글 5건 본문 교체 | 9월 중 하루 1~2건 | 초안 — [검증] 표시 4곳 확인 후 적용 |
+발행 본문 정본은 루트의 `posts_*.html`입니다. 10/13 공개 본문 복구 기록은 `docs/LIVE_SYNC_2026-10-13.json`에 있습니다. 공개 rendered HTML은 관리자 편집용 raw와 다를 수 있습니다.
 
-## 표기 규칙
-
-- `<!-- [검증] -->` : 발행 전 브라우저로 확인할 링크·사실. 확인 후 주석은 지우고 발행
-- `[자료 설명]` : 세일즈 검색결과 상위 자료의 실제 구성(예: "A+ 작성 예시 6페이지")으로 교체. 없는 수치는 만들지 않음
-- `[허브 글 URL]`, `[독학사 글 새 URL]`, `[에릭 자료노트 새 URL]` : 먼저 발행된 글의 라이브 URL로 교체(내부 링크)
-- 본문은 `<!-- 본문 시작 -->` ~ `<!-- 본문 끝 -->` 사이만 복사. 블로거(eric)용은 한 줄 HTML
+각 새 파일의 적용 대상·제목·시각을 확인하고 `본문 시작`부터 `본문 끝`까지 사용합니다. A7은 삽입 블록이므로 기존 본문을 덮어쓰지 않습니다. 적용 후 실제 페이지·링크를 확인하고 이력과 보관본을 같은 세션에 갱신합니다.

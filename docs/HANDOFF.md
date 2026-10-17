@@ -1,51 +1,34 @@
 # HANDOFF — 다음 세션은 여기서 시작
 
-> 마지막 갱신: 2026-10-14 (4차 세션, 방통대 중간과제물 6편 x 3채널 발행). 이 문서 하나로 "어디까지 했고, 지금 뭘 해야 하는지"를 5분 안에 파악할 수 있게 유지합니다. 세션이 끝나면 이 문서의 §1·§2를 갱신하고 [PROGRESS_LOG.md](PROGRESS_LOG.md)에 로그를 남기세요.
+> 마지막 갱신: 2026-10-13. 누락 이력을 복구하고 10월 수정안 5개를 작성했습니다. **이번 세션의 블로그 발행·수정은 0건**입니다.
 
-## 1. 현재 상태 (한눈에)
+> 전달 상태: GitHub 연결 앱의 쓰기 요청이 `403 Resource not accessible by integration`으로 거절되어 원격 브랜치·PR은 생성하지 못했습니다. 변경분은 로컬 커밋·패치·전체 ZIP으로 전달합니다. 먼저 저장소 반영 여부를 확인하세요.
 
-- 프로젝트: 해피레포트 세일즈코드(`redfoxkiller`, 수익 40%)로 블로그 3곳에서 자료 판매 수익화. 구조·규칙은 [README.md](../README.md), 전략·키워드 링크는 [STRATEGY.md](../STRATEGY.md)
-- 실적: 캠페인 글 **라이브 16건** (hadesyi 3 · eric 8 · 에릭 자료노트 5). 워드프레스 채널은 2026-08-30부터 **에릭 자료노트(https://eric.dothome.co.kr, /wp-admin/, REST API 가능)** — 오후의레포트(hadeslee) 만료로 유실됐던 3건은 8/30 재발행 완료. 매출 데이터는 아직 기록 없음 → [METRICS.md](METRICS.md)
-- **2026-10-14(4차): 방통대 2학기 중간과제물 6편을 3채널 전부 발행(총 18건)** — 카카오레포트 Blogger 6 · 에릭 자료노트 WP 6(REST, post 131~136) · hadesyi 그누보드 6(wr_id 413~418). 세일즈 링크는 '방송통신대'가 redfoxkiller에서 깨지므로 '학과명+중간과제물' 키워드 사용(검증 착지건수: 사회복지 815·유아교육 427·간호 368·교육 256·경영 59·행정 40). 상세 → [PROGRESS_LOG.md](PROGRESS_LOG.md) 4차 세션
-- 3차 세션(8/29): 발행 없이 **기록 체계 정비 + 초안 작성** — 상태 분석([STATUS.md](STATUS.md)), 로드맵([ROADMAP.md](ROADMAP.md)), 백로그([BACKLOG.md](BACKLOG.md)), 체크리스트([PUBLISHING_CHECKLIST.md](PUBLISHING_CHECKLIST.md)), 누락됐던 원문 HTML 5건 복원, 링크 생성기(`tools/make_sales_links.py`), 그리고 **`drafts/`에 초안 6파일**(방통대 글 3건, 독학사 패치 1·신규 글 1, 병원 글 보강 5건)
-- 시즌 위치: **방통대 2학기 중간과제물 이미 공개(8/24), 제출 10/2~10/12. 독학사 3단계 발표 9/7.** 방통대 글은 9/10까지 라이브가 목표
+## 1. 현재 상태
 
-## 2. 지금 바로 할 일 (우선순위 순)
+- 해피레포트 세일즈 ID `redfoxkiller`로 블로그 3곳 운영. 제휴 조건은 기존 기록을 참고하되 현재 정산 화면으로 재확인합니다.
+- 캠페인 게시 이력 **19건**(기존 16 + 누락 복구 A1·A3·B2). 에릭 자료노트 5 / hadesyi 5 / Blogger 9. 사이트 기본 글 4건·저장소 밖 과거 글은 제외. 이번에 19개 URL 전체를 재점검한 것은 아닙니다.
+- A1·A3는 9/2, B2는 9/6에 이미 발행됐습니다. B1 보강·C1 병원 5건 보강·C2 내부 링크도 공개 본문에서 확인했습니다. **오래된 초안을 다시 발행하지 마세요.**
+- 공개 본문 14건을 `posts_*.html`에 복구했습니다. WordPress 111·112와 hadesyi 409~411은 기존 보관본 유지. 근거: [재개 분석](REVIEW_2026-10-13.md), [공개 메타데이터](LIVE_SYNC_2026-10-13.json).
+- 방통대 15개와 독학사·한림대 4개 키워드는 공개 검색결과 존재 확인: [점검표](LINK_AUDIT_2026-10-13.md). 최신 상품 적합성·수익 귀속을 검증한 것은 아닙니다.
+- 매출·BEST-100·검색엔진 관리 등록 상태는 미확인입니다. 빈 값을 0 또는 완료로 바꾸지 않습니다.
 
-1. **방통대 키워드 검증** — [BACKLOG.md](BACKLOG.md) A-2 1순위 링크 15개를 브라우저로 열어 검색결과 건수 기록, 0건은 2순위 표기로 교체하고 초안의 링크도 함께 교체. (브라우저 필요, 로그인 불필요). **이미 발행된 A2(https://eric.dothome.co.kr/knou-social-welfare-early-childhood-2026-2/)의 링크 5개부터 확인**, 0건이면 REST API로 본문 교체
-2. **BEST-100 재분석** — salescode.asp?mode=b1 최근다운 BEST-100에서 방통대·과목명 반복 키워드 추출 → BACKLOG A와 초안 과목 목록에 반영. (로그인은 사용자가 직접)
-3. **방통대 글 발행** — A2는 8/30 발행 완료. 남은 A1(hadesyi 방송통신 게시판) → A3(eric)을 하루 1건. 발행 후 A2(post 117)와 가이드 글(post 26)의 '함께 보면 좋은 글'에 링크 추가(REST API). 목표 9/10
-4. **9/7 이후**: `drafts/2026-09-dokhaksa/B1` 패치를 에릭 자료노트 독학사 글(post 113, https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/)에 적용, 9/15 전후 `B2` 신규 글 발행
-5. **METRICS 첫 기록** — 세일즈코드 페이지 수익 내역을 [METRICS.md](METRICS.md) 주간 표에 옮겨 적기
-6. 발행 사이사이: `drafts/2026-09-hospital/C1`로 병원 간호사 글 5건 본문 교체([검증] 4곳 확인), SEO 등록 상태 확인(체크리스트 §5)
+## 2. 지금 할 일
 
-## 3. 세션 시작 절차
+1. **10/15 18시 전:** [A7 안내 블록](../drafts/2026-10-resume/A7_knou_additional_submission_banner.html)을 방통대 글 4곳(WordPress 26·117, hadesyi qa/47, Blogger 9/2 글)에 삽입. 추가 기간 제출·수정 시 1점 감점 안내. 마감 뒤 종료 문구로 변경.
+2. **독학사 정확성 교정:** [B4](../drafts/2026-10-resume/B4_wordpress_stage4_corrected.html)·[B5](../drafts/2026-10-resume/B5_gnuboard_stage4_checklist.html)를 post 113·free/412에 적용. 3단계 자료를 4단계 전용처럼 안내한 문구와 접수 전 문구를 교정합니다. 수험표 10/23 10:00, 시험 11/1.
+3. **한림대 안내 교정:** [C4](../drafts/2026-10-resume/C4_blogger_hallym_corrected.html) 적용. 접수는 10/7 종료, ‘통합채용’ 설명은 공식 공고와 다릅니다. 로드맵 글의 해당 문구도 교정. 서류 발표 예정 11/4 14:00.
+4. 기존 오류 교정 후 [B3 최종 점검 글](../drafts/2026-10-resume/B3_blogger_final_review.html) 발행. 날짜 문구는 실제 발행일에 맞추고 라이브 URL 확인 후 이력 추가.
+5. 사용자 로그인으로 BEST-100·실제 수익을 확인해 [METRICS.md](METRICS.md) 입력. 공개 검색 건수로 판매 수요를 추정하지 않습니다.
 
-1. 이 문서 → [ROADMAP.md](ROADMAP.md) → [BACKLOG.md](BACKLOG.md) 순으로 읽는다 (README·STRATEGY는 규칙 확인용)
-2. 오늘 날짜를 시즌 캘린더(ROADMAP 하단)에 대어 보고, 마감이 가장 가까운 항목부터 한다
-3. 브라우저·로그인이 필요한 작업인지 먼저 구분한다 (ROADMAP 맨 아래 "세션 환경별 가능 작업")
-4. 글을 발행하면 **같은 세션 안에서** README 게시 이력 표, posts_*.html 원문, BACKLOG 상태, PROGRESS_LOG를 갱신하고 커밋한다 (2차 세션처럼 원문이 빠지는 일이 없도록)
+## 3. 세션 시작·종료 절차
 
-## 4. 파일 지도
+이 문서 → [ROADMAP](ROADMAP.md) → [BACKLOG](BACKLOG.md) → [PUBLISHING_CHECKLIST](PUBLISHING_CHECKLIST.md) 순으로 읽습니다. 현재 날짜와 공식 공고를 대조하고, **저장소의 발행 상태를 공개 페이지와 먼저 맞춥니다.**
 
-| 파일 | 언제 보나 |
-|---|---|
-| `docs/HANDOFF.md` | 세션 시작 (이 문서) |
-| `docs/ROADMAP.md` | 무엇을 할지 고를 때 (우선순위·완료 기준·시즌 캘린더) |
-| `docs/BACKLOG.md` | 글 후보·키워드·링크·상태 |
-| `docs/PUBLISHING_CHECKLIST.md` | 글 쓰고 발행할 때 (규칙·템플릿·SEO 상태표) |
-| `docs/STATUS.md` | 현재 상태의 근거·발견된 문제 (3차 세션 분석) |
-| `docs/METRICS.md` | 수익·판매 기록 |
-| `docs/PROGRESS_LOG.md` | 세션별 로그 (세션 끝에 추가) |
-| `drafts/` | 발행 전 초안 (상태표는 `drafts/README.md`). 발행 후 posts_*.html로 이관 |
-| `README.md` | 수익 구조·채널·게시 이력(정본)·재개 프롬프트 |
-| `STRATEGY.md` | 클러스터 분석·운영 팁·검증된 키워드 링크 24개 |
-| `posts_*.html` | 발행 원문 (재발행·수정용) |
-| `tools/make_sales_links.py` | 키워드 → 인코딩 링크 |
+관리자 편집 전 최신 본문을 백업합니다. 공개 API의 `content.rendered`는 편집기 raw 원문과 다를 수 있습니다. A7은 삽입 블록이며 전체 본문이 아닙니다. 적용 설명은 [10월 패키지](../drafts/2026-10-resume/README.md)를 따릅니다.
 
-## 5. 지켜야 할 것
+발행·수정한 날에 README 게시 이력, `posts_*.html`, BACKLOG, PROGRESS_LOG, 이 문서를 함께 갱신하고 커밋합니다. 공개 본문을 보관한 것과 오류를 교정한 것은 별개로 기록합니다.
 
-- 로그인·자격증명은 사용자가 직접. 저장소에 계정·토큰 기록 금지
-- 모든 글 하단 제휴 고지 문구 유지
-- 템플릿만 바꾼 복제 글 금지 — 글당 고유 정보 3가지 이상
-- 발행 결과는 반드시 같은 세션에서 저장소에 기록
+## 4. 접근이 필요한 작업
+
+블로그 관리자 인증, 해피레포트 BEST-100·수익, Search Console·Search Advisor는 이번에 사용하지 않았습니다. 로그인은 사용자에게 맡기고 자격증명을 저장소에 넣지 않습니다. 제휴 고지를 유지하고 미검증 사실·상품 수치를 만들지 않습니다.

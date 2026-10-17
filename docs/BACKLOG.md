@@ -1,27 +1,41 @@
-# 백로그 — 후보 글·키워드 (2026-08-29 갱신)
+# 백로그 — 후보 글·키워드 (2026-10-13 갱신)
 
 발행 전 후보를 모아 두는 곳입니다. 발행이 끝나면 이 표에서 상태를 `발행`으로 바꾸고, README 게시 이력 표와 posts_*.html에 결과를 옮겨 적습니다. 링크는 `python3 tools/make_sales_links.py "키워드"`로 만들었고, 규칙은 STRATEGY.md §1과 같습니다(공백 AND 매칭, 한글 URL 인코딩).
 
 상태 값: `후보`(아이디어) → `검증`(세일즈 검색결과 확인됨) → `초안`(HTML 작성됨) → `발행`(라이브 URL 확보) / `보류` / `제외`
 
+
+## 2026-10-13 실행 큐
+
+A1·A3·B2 및 B1·C1·C2 보강은 이미 공개 글에 반영됐습니다. 이번 세션은 이력 복구와 수정안 작성만 수행했습니다. [공개 근거](REVIEW_2026-10-13.md)를 확인하고 중복 발행하지 마세요.
+
+| ID | 대상 | 작업 | 상태 |
+|---|---|---|---|
+| A7 | 방통대 글 4곳 | 추가 제출·감점 안내 삽입 | **수정안** — `drafts/2026-10-resume/A7_knou_additional_submission_banner.html`, 10/15 18시 이전 반영 필요 |
+| B4 | WordPress post 113 | 3·4단계 과목 혼동·지난 접수 문구 교정 | **수정안** — `drafts/2026-10-resume/B4_wordpress_stage4_corrected.html` |
+| B5 | hadesyi free/412 | 접수 후·수험표 체크리스트로 교체 | **수정안** — `drafts/2026-10-resume/B5_gnuboard_stage4_checklist.html` |
+| C4 | 한림대 글·로드맵 | 현재 공고·병원 선택 지원 안내 | **수정안** — `drafts/2026-10-resume/C4_blogger_hallym_corrected.html` |
+
+수정안은 라이브 미반영입니다. B3 신규 초안은 아래 B 표를 참조합니다.
+
 ## A. 방송통신대 중간과제물 시즌 (P1, 9월)
 
-**확정 일정 (2026학년도 2학기 중간과제물 시행공고, 8/24 게시·8/27 수정)**: 과제명은 MyKNOU에서만 공개(이미 공개됨) / 정규 제출 **10/2(금) 09:00 ~ 10/12(월) 18:00** / 추가 제출 10/13(화)~10/15(목) 18:00, 1점 감점 / 성적 공개 11/2 09:30 이후. 2025년(10/10~10/20)보다 일주일 이르므로 **글은 9/10까지 라이브**가 목표. 8/27 변경 공지에서 확인된 과제물 과목: 인간과 사회(18개 학과), 경제학의 이해(11개 학과), 열린사회와21세기(문화교양 3), 행정조직론(행정 3).
+**확정 일정 (2026학년도 2학기 중간과제물 시행공고, 8/24 게시·8/27 수정)**: 과제명은 MyKNOU에서만 공개(이미 공개됨) / 정규 제출 **10/2(금) 09:00 ~ 10/12(월) 18:00** / 추가 제출 10/13(화)~10/15(목) 18:00, 1점 감점 / 성적 공개 11/2 09:30 이후. 2025년(10/10~10/20)보다 일주일 이르므로 **9/10 발행 목표는 과거 계획**이며 A1·A2·A3 발행 사실을 확인했습니다. 현재는 추가 제출 안내 A7이 우선입니다. 8/27 변경 공지에서 확인된 과제물 과목: 인간과 사회(18개 학과), 경제학의 이해(11개 학과), 열린사회와21세기(문화교양 3), 행정조직론(행정 3).
 
 ### A-1. 후보 글
 
 | ID | 채널 | 제목(안) | 사용 키워드 | 상태 | 비고 |
 |---|---|---|---|---|---|
-| A1 | hadesyi 방송통신 게시판 | [방통대] 2026학년도 2학기 중간과제물 일정·작성 순서·과목별 참고자료 모음 (제출 10/2~10/12) | 교양 5 + 전공 4 + 전체 검색 | **초안** (`drafts/2026-09-knou/A1_hadesyi_knou_hub.html`) | 시즌 허브 글. 링크 검증·[자료 설명] 채우면 발행 |
-| A2 | 에릭 자료노트 (워드프레스, 카테고리 방송통신대) | 방통대 사회복지학과·유아교육과 2학기 중간과제물 준비 — 과목별 참고자료와 작성 포인트 (2026) | 사회복지실천론, 사회복지조사론, 사회복지정책론, 아동관찰및행동연구, 유아교육 | **발행** 2026-08-30 | https://eric.dothome.co.kr/knou-social-welfare-early-childhood-2026-2/ (post 117). 세일즈 링크 5개 검색결과 **미검증** 상태로 발행 — 브라우저에서 클릭 확인 후 0건 링크는 2순위 표기로 교체 |
-| A3 | eric (블로거) | 2026 2학기 방통대 교양과목 중간과제물 작성법 — 인간과 사회·경제학의 이해·열린사회와 21세기 | 인간과 사회, 경제학의 이해, 열린사회와 21세기, 세계의 역사, 심리학에게 묻다 | **초안** (`drafts/2026-09-knou/A3_eric_liberal_arts.html`) | 8/27 변경 공지로 개설 확인된 과목 중심 |
+| A1 | hadesyi 방송통신 게시판 | [방통대] 2026학년도 2학기 중간과제물 일정·작성 순서·과목별 참고자료 모음 | 교양·전공·전체 검색 | **발행 확인** 2026-09-02 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=qa&wr_id=47 — 10/13 본문 복구, A7 반영 대기 |
+| A2 | 에릭 자료노트 | 방통대 사회복지학과·유아교육과 중간과제물 준비 | 기존 5개 | **발행** 2026-08-30 | post 117. A1·A3 내부 링크 반영 확인, 10/13 링크 5개 검색결과 확인. A7 반영 대기 |
+| A3 | eric Blogger | 2026 2학기 방통대 교양과목 중간과제물 작성법 | 교양 5개 | **발행 확인** 2026-09-02 | https://erichlee.blogspot.com/2026/09/2026-2-21-1021012.html — 10/13 본문 복구, A7 반영 대기 |
 | A4 | hadesyi 또는 eric | 방통대 간호학과 중간과제물 참고자료 | 간호학과 과제물, 간호이론 과제물 | 후보 | A1에 링크로 포함. 반응 보고 단독 글 결정 |
 | A5 | 에릭 자료노트 | 방통대 경영·행정 계열 중간과제물 자료 (경영학원론·행정학개론·행정조직론) | 경영학원론, 행정학개론, 행정조직론 | 후보 | A1 발행 후 반응 보고 결정 |
-| A6 | 에릭 자료노트 (기존 글 보강) | 방송통신대 중간과제물, 참고자료 어디서 찾을까? (2026 최신 가이드) — https://eric.dothome.co.kr/knou-gwajemul/ | 기본 홍보코드 (+ 검증 후 과목별 키워드 링크) | **1차 보강 발행** 2026-08-30 | 확정 일정 섹션(제출 10/2~10/12, 변경 공지·AI 지시사항)과 A2 링크 추가 완료. 남은 것: 키워드 검증 후 과목별 링크 5~6개 추가, A1·A3 발행 후 링크 추가 |
+| A6 | 에릭 자료노트 기존 글 | 방송통신대 중간과제물 참고자료 가이드 | 기본·과목 링크 | **보강 확인** | post 26. 과목별 링크·A1·A3 내부 링크 확인. 공개 본문 복구 완료. A7 반영 대기 |
 
-### A-2. 키워드 링크 (검증 전)
+### A-2. 키워드 링크 (1순위 15개: 2026-10-13 공개 검색결과 확인)
 
-검증 방법: 링크를 브라우저로 열어 검색결과 건수를 "검증" 컬럼에 적는다. 0건이면 표기 변형으로 재시도하고, 그래도 없으면 `제외`.
+검증 기록: [10/13 점검표](LINK_AUDIT_2026-10-13.md). 공개 PC 리다이렉트 경로의 분류별 검색결과를 확인했습니다. 브라우저 클릭·모바일·판매 귀속 검증과는 구분합니다. 신규 검증 때는 검색결과 건수를 기록합니다. 0건이면 표기 변형으로 재시도하고, 그래도 없으면 `제외`.
 
 **표기 선택 요령**: 검색은 공백으로 나눈 각 단어가 제목에 모두 포함(AND)되는 방식이므로, 과목명은 **띄어쓴 형태**("인간과 사회")가 붙여 쓴 제목("인간과사회")과 띄어 쓴 제목 모두에 걸립니다. 반대로 "방통대"는 제목에 없는 자료가 많을 수 있어, 1순위는 `<과목명> 과제물`, 2순위 `방통대 <과목명>`, 3순위 `<과목명> 2학기`로 시험하세요. "중간과제물"은 "중간시험과제물"이라는 제목에 걸리지 않으니 "과제물"이 더 넓습니다.
 
@@ -29,21 +43,21 @@
 
 | 키워드 | 링크 | 검증 |
 |---|---|---|
-| 인간과 사회 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%9D%B8%EA%B0%84%EA%B3%BC%20%EC%82%AC%ED%9A%8C%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 경제학의 이해 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EA%B2%BD%EC%A0%9C%ED%95%99%EC%9D%98%20%EC%9D%B4%ED%95%B4%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 열린사회와 21세기 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%97%B4%EB%A6%B0%EC%82%AC%ED%9A%8C%EC%99%80%2021%EC%84%B8%EA%B8%B0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 세계의 역사 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%84%B8%EA%B3%84%EC%9D%98%20%EC%97%AD%EC%82%AC%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 심리학에게 묻다 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%8B%AC%EB%A6%AC%ED%95%99%EC%97%90%EA%B2%8C%20%EB%AC%BB%EB%8B%A4%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 사회복지실천론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%A4%EC%B2%9C%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 사회복지조사론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%A1%B0%EC%82%AC%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 사회복지정책론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%A0%95%EC%B1%85%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 아동관찰및행동연구 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%95%84%EB%8F%99%EA%B4%80%EC%B0%B0%EB%B0%8F%ED%96%89%EB%8F%99%EC%97%B0%EA%B5%AC%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 유아교육 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%9C%A0%EC%95%84%EA%B5%90%EC%9C%A1%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 간호학과 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EA%B0%84%ED%98%B8%ED%95%99%EA%B3%BC%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 간호이론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EA%B0%84%ED%98%B8%EC%9D%B4%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 방통대 과제물 (전체 검색용) | `https://sales.happyreport.co.kr/redfoxkiller/%EB%B0%A9%ED%86%B5%EB%8C%80%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 2학기 중간과제물 | `https://sales.happyreport.co.kr/redfoxkiller/2%ED%95%99%EA%B8%B0%20%EC%A4%91%EA%B0%84%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
-| 방송통신대학교 중간과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EB%B0%A9%EC%86%A1%ED%86%B5%EC%8B%A0%EB%8C%80%ED%95%99%EA%B5%90%20%EC%A4%91%EA%B0%84%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 미확인 |
+| 인간과 사회 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%9D%B8%EA%B0%84%EA%B3%BC%20%EC%82%AC%ED%9A%8C%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 2,593 / 방송통신 111 / 서식 6 |
+| 경제학의 이해 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EA%B2%BD%EC%A0%9C%ED%95%99%EC%9D%98%20%EC%9D%B4%ED%95%B4%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 122 / 방송통신 2 / 서식 3 |
+| 열린사회와 21세기 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%97%B4%EB%A6%B0%EC%82%AC%ED%9A%8C%EC%99%80%2021%EC%84%B8%EA%B8%B0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 40 / 방송통신 15 / 서식 0 |
+| 세계의 역사 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%84%B8%EA%B3%84%EC%9D%98%20%EC%97%AD%EC%82%AC%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 467 / 방송통신 49 / 서식 0 |
+| 심리학에게 묻다 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%8B%AC%EB%A6%AC%ED%95%99%EC%97%90%EA%B2%8C%20%EB%AC%BB%EB%8B%A4%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 42 / 방송통신 0 / 서식 0 |
+| 사회복지실천론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%A4%EC%B2%9C%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 163 / 방송통신 18 / 서식 0 |
+| 사회복지조사론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%A1%B0%EC%82%AC%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 811 / 방송통신 17 / 서식 0 |
+| 사회복지정책론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%A0%95%EC%B1%85%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 219 / 방송통신 28 / 서식 0 |
+| 아동관찰및행동연구 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%95%84%EB%8F%99%EA%B4%80%EC%B0%B0%EB%B0%8F%ED%96%89%EB%8F%99%EC%97%B0%EA%B5%AC%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 16 / 방송통신 7 / 서식 0 |
+| 유아교육 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EC%9C%A0%EC%95%84%EA%B5%90%EC%9C%A1%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 1,099 / 방송통신 123 / 서식 0 |
+| 간호학과 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EA%B0%84%ED%98%B8%ED%95%99%EA%B3%BC%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 550 / 방송통신 0 / 서식 1 |
+| 간호이론 과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EA%B0%84%ED%98%B8%EC%9D%B4%EB%A1%A0%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 231 / 방송통신 19 / 서식 0 |
+| 방통대 과제물 (전체 검색용) | `https://sales.happyreport.co.kr/redfoxkiller/%EB%B0%A9%ED%86%B5%EB%8C%80%20%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 5,482 / 방송통신 654 / 서식 2 |
+| 2학기 중간과제물 | `https://sales.happyreport.co.kr/redfoxkiller/2%ED%95%99%EA%B8%B0%20%EC%A4%91%EA%B0%84%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 3,987 / 방송통신 1,445 / 서식 0 |
+| 방송통신대학교 중간과제물 | `https://sales.happyreport.co.kr/redfoxkiller/%EB%B0%A9%EC%86%A1%ED%86%B5%EC%8B%A0%EB%8C%80%ED%95%99%EA%B5%90%20%EC%A4%91%EA%B0%84%EA%B3%BC%EC%A0%9C%EB%AC%BC/` | 10/13 확인: 레포트 2,475 / 방송통신 0 / 서식 0 |
 
 **2순위 — 대체 표기 (방통대 + 과목명)**
 
@@ -71,16 +85,16 @@
 
 | ID | 채널 | 제목(안) | 사용 키워드 | 상태 | 비고 |
 |---|---|---|---|---|---|
-| B1 | 에릭 자료노트 (재발행 글 R3 보강) | 독학사 4단계 대비 전공별 기출 족보 총정리 (https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/, post 113) | 기존 8종 | **초안** (`drafts/2026-09-dokhaksa/B1_ericdothome_patch_after_result.html`) | 9/7 발표 직후 적용. R3 재발행이 먼저. 일정 검증 완료라 바로 적용 가능 |
-| B2 | hadesyi 리포트 게시판 | [시험자료] 독학사 4단계 접수 D-7 체크리스트 — 전공별 기출 문제집·모의고사로 8주 완성 (2026) | 기존 검증 링크 10종 + 독학사 4단계 | **초안** (`drafts/2026-09-dokhaksa/B2_hadesyi_stage4_checklist.html`) | 9/15 전후 발행. "독학사 4단계" 링크만 검증: `https://sales.happyreport.co.kr/redfoxkiller/%EB%8F%85%ED%95%99%EC%82%AC%204%EB%8B%A8%EA%B3%84/` |
-| B3 | eric | 독학사 4단계 시험 D-15 최종 점검 (10월 중순) | 기존 8종 | 후보 | |
+| B1 | 에릭 자료노트 post 113 | 기존 독학사 발표 후 보강 | 기존 링크 | **보강 확인** | 9/12 API 수정시각·문단 확인. 과거 패치 재적용 금지. 정확성 교정은 B4 |
+| B2 | hadesyi free/412 | 독학사 4단계 접수·시험 대비 체크리스트 | 기존 링크 | **발행 확인** 2026-09-06 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=412 — 10월 교정안 B5 적용 대기 |
+| B3 | eric Blogger | 독학사 4단계 2026 시험 전 최종 점검 — 오답 정리와 서술형 연습 순서 | 독학사 4단계 | **초안** | `drafts/2026-10-resume/B3_blogger_final_review.html`. B4·B5 교정 후 발행, 날짜 재확인 |
 
 ## C. 기존 글 보강 (P3)
 
 | ID | 대상 | 내용 | 상태 |
 |---|---|---|---|
-| C1 | eric 병원 간호사 글 5건 | 병원별 고유 정보(소재·규모·채용 시기·전형 절차·인재상) 추가, 본문 600자 이상 | **초안** (`drafts/2026-09-hospital/C1_eric_hospital_posts_enriched.html`) — [검증] 4곳 확인 후 적용 |
-| C2 | eric 간호사 로드맵 글 ↔ 병원별 글 5건 | 상호 내부 링크 | **초안** (C1에 "함께 보면 좋은 글"로 포함) — 로드맵 글 쪽 링크는 별도 추가 필요 |
+| C1 | eric 병원 간호사 글 5건 | 고유 정보·본문 보강 | **보강 확인** — 공개 피드 9/6~9/7 수정, 10/13 보관본 갱신. 내용 정확성은 별도 검증, 한림대 C4 우선 |
+| C2 | eric 간호사 로드맵 ↔ 병원별 글 | 상호 내부 링크 | **반영 확인** — 10/13 공개 본문 확인. 로드맵의 한림대 통합 공채 문구는 C4와 함께 교정 |
 | C3 | 에릭 자료노트 재발행 글 3건(R1~R3) | "함께 보면 좋은 글" 상호 링크 + 8/8 기출·족보 글 링크 | **발행** 2026-08-30 (R 발행 시 포함) |
 
 ## D. 자격증 시험 직전 (P5, 10~11월)
@@ -93,13 +107,13 @@
 
 ## R. 재발행 — 오후의레포트 만료분 (P0, 즉시)
 
-오후의레포트(hadeslee.dothome.co.kr) 호스팅 기간 만료(2026-08-30 확인)로 8/17 발행 3건이 사라졌습니다. 원문은 `posts_ericdothome_wordpress.html`에 있고, 붙여넣기용 통합본은 `drafts/2026-09-republish/R_ericdothome_3posts.html`입니다. 세일즈 링크는 1차 세션 검증분 그대로라 재검증이 필요 없습니다.
+오후의레포트(hadeslee.dothome.co.kr) 호스팅 기간 만료(2026-08-30 확인)로 8/17 발행 3건이 사라졌습니다. 원문은 `posts_ericdothome_wordpress.html`에 있고, 붙여넣기용 통합본은 `drafts/2026-09-republish/발행완료_R_ericdothome_3posts.html`입니다. 세일즈 링크는 과거 검증 이력이며, 다시 발행할 때 현재 검색결과와 자료 적합성을 확인합니다.
 
 | ID | 채널 | 제목 | 상태 | 비고 |
 |---|---|---|---|---|
 | R1 | 에릭 자료노트 (카테고리 시험자료 47) | 상수도관망시설운영관리사 1급·2급 필기, 기출 220문항 족보로 준비하는 법 (2026) | **발행** 2026-08-30 | https://eric.dothome.co.kr/sangsudo-gwanmang-gichul-220/ (post 111) |
 | R2 | 에릭 자료노트 | 컴플라이언스 오피서(은행) CBCO 필기, 기출 210문항으로 합격하는 법 | **발행** 2026-08-30 | https://eric.dothome.co.kr/cbco-gichul-210/ (post 112) |
-| R3 | 에릭 자료노트 | 독학사 4단계 학위취득 종합시험 대비 - 전공별 기출 족보 총정리 | **발행** 2026-08-30 | https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/ (post 113). D-day 일정표 포함. 9/7 이후 B1 패치 적용 |
+| R3 | 에릭 자료노트 | 독학사 4단계 학위취득 종합시험 대비 - 전공별 기출 족보 총정리 | **발행** 2026-08-30 | https://eric.dothome.co.kr/dokhaksa-4dangye-jokbo/ (post 113). D-day 일정표 포함. B1 보강 확인. 현재 B4 정확성 교정 대기 |
 
 ## E. 보류·제외
 
