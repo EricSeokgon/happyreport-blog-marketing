@@ -4,6 +4,17 @@
 
 ---
 
+## 2026-10-19 (6차 세션, 2부) — 카카오레포트 기록·교정 + 푸시 복구
+
+**한 일**
+- GitHub 푸시 복구: 사용자가 PC(D:\blog\happyreport-review)에서 bundle을 pull 후 `git push origin HEAD:main` → 원격 main `bc3d4a5`로 반영 확인 (PC 쪽은 codex 브랜치에 체크아웃돼 있어 `git push origin main`이 거절됐던 것)
+- 카카오레포트 정체 확인: https://kakaopod.blogspot.com/ (blogID 5194575870278207119). 캠페인 글 6건 URL·원문을 `posts_kakaopod_blogger.html`에 보관, README 채널 표 갱신. Blogger 게시일은 8/27로 표시됨(4차 세션 기록은 10/14)
+- 카카오레포트 허브 글 상단에 중간과제물 제출 종료 안내 + "보통 9월 중순~10월 초 제출" 부정확 문구 교정(공개 피드 확인)
+
+**다음 우선순위**: HANDOFF §2 그대로 (10/23 독학사 수험표, 10/26 보험심사관리사 종료 안내, 11/1 이후 독학사, 11/2~6 출석수업대체)
+
+---
+
 ## 2026-10-19 (6차 세션) — 보험심사관리사 D-6 + 기록 보완
 
 **한 일**
