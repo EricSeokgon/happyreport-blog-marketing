@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-10-20 (7차 세션, 2부) — SEO 기반 점검
+
+**한 일**
+- 4채널 robots.txt·사이트맵·인증 메타 확인, 구글 Search Console(사용자 로그인 상태) 속성·색인·사이트맵 확인 → PUBLISHING_CHECKLIST §5 첫 기록
+- **에릭 자료노트 사이트맵 캐시 문제 발견·해결**: The SEO Framework 사이트맵이 10/13 생성본에서 갱신되지 않아 10/14~10/19 REST 발행 글 11건(131~136·145·146·151·152·159)이 빠져 있었음 → SEO 설정 Save Settings(값 변경 없음)로 캐시 비움 → 30 URL 확인 → Search Console에 /sitemap.xml 재제출(10/20 읽음, 30페이지 발견)
+- hadesyi /sitemap.php 재제출(7/18부터 "가져올 수 없음", 재제출 직후도 동일)
+- 발행 후 체크리스트에 "WP REST 발행 시 사이트맵 캐시 비우기" 추가
+
+**확인한 것**
+- Search Console 등록: http://eric.dothome.co.kr/(색인 3), http://hadesyi.dothome.co.kr/(색인 92), https://erichlee.blogspot.com/(색인 133·크롤링됨-미색인 1,566), sc-domain:kakaopod.blogspot.com. https 에릭 자료노트 속성 없음
+- WP에 google·naver 인증 메타 있음, hadesyi·Blogger에는 인증 메타 없음
+- 네이버 서치어드바이저는 브라우저 패널 안전 제한으로 열 수 없음
+
+**다음 우선순위**: 10/23 독학사 수험표 → 10/26 E1 → hadesyi 사이트맵 상태 재확인. 사용자 결정 2건(https 속성 추가, 네이버 블로그 채널 편입)
+
+---
+
 ## 2026-10-20 (7차 세션) — METRICS 첫 기록 + 날짜별 안내 초안
 
 **한 일**

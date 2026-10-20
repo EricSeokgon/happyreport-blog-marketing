@@ -42,15 +42,19 @@
 - [ ] posts_<채널>.html에 원문 추가 (구분선 + 제목/게시 주석 + 본문 시작~끝)
 - [ ] docs/BACKLOG.md 상태를 `발행`으로 변경, docs/PROGRESS_LOG.md에 세션 로그 기록
 - [ ] 검수 가능한 분량으로 나눠 발행. 발행 빈도를 색인 보장으로 설명하지 않음
+- [ ] **에릭 자료노트(WP)에 REST로 발행했다면**: wp-admin → SEO(The SEO Framework) → Save Settings를 한 번 눌러 사이트맵 캐시를 비우고, `/sitemap.xml`에 새 글이 들어갔는지 확인 (10/20 확인: REST 발행만으로는 캐시가 갱신되지 않아 10/13 이후 글 11건이 사이트맵에서 빠져 있었음)
 
 ## 5. SEO 기반 상태표 (확인되면 갱신)
 
 | 블로그 | 구글 서치콘솔 | 네이버 서치어드바이저 | 사이트맵 제출 | SEO 플러그인 | 마지막 확인 |
 |---|---|---|---|---|---|
-| eric.dothome.co.kr (에릭 자료노트) | 미확인 | 미확인 | 미확인 | 미확인 | — |
-| ~~hadeslee.dothome.co.kr~~ | 만료 | 만료 | 만료 | — | 2026-08-30 |
-| hadesyi.dothome.co.kr | 미확인 | 미확인 | 미확인 | 해당 없음(그누보드) | — |
-| erichlee.blogspot.com | 미확인 | 미확인 | 블로거 자동 | 해당 없음 | — |
+| eric.dothome.co.kr (에릭 자료노트) | **등록(http:// URL 접두어 속성만)**. 색인 3·미색인 7(중복·다른 표준 5, noindex 2). **https 속성 없음** — 사이트는 https라 http 속성 데이터가 불완전 | 인증 메타 태그 있음(naver-site-verification) — 콘솔 확인 불가(브라우저 패널 차단) | /sitemap.xml 8/22 제출. 10/20 캐시 갱신 후 재제출 → 30페이지 읽음(이전 19) | The SEO Framework(사이트맵 캐시 ON — **REST 발행 후 캐시가 안 비워짐**, 설정 저장으로 수동 비움 필요) | 2026-10-20 |
+| ~~hadeslee.dothome.co.kr~~ | 만료(콘솔에 속성 잔존) | 만료 | 만료 | — | 2026-08-30 |
+| hadesyi.dothome.co.kr | 등록(http). 색인 92·미색인 26(크롤링됨-미색인 22) | 인증 메타 없음(파일 인증 여부 미확인) | /sitemap.php(958 URL, 동적) — 7/18 제출 후 **"가져올 수 없음"**, 10/20 재제출도 같은 상태(처리 대기일 수 있음). 사이트맵에 존재하지 않는 free/gallery/notice wr_id 47·48 URL이 섞여 있음 | 해당 없음(그누보드). robots.txt에 Sitemap 표기 있음 | 2026-10-20 |
+| erichlee.blogspot.com | 등록. 색인 133·**크롤링됨-미색인 1,566**·대체 페이지 164 | 미확인 | 블로거 자동(/sitemap.xml 인덱스). 사용자 지정 robots.txt에 Sitemap 줄 없음 | 해당 없음 | 2026-10-20 |
+| kakaopod.blogspot.com (카카오레포트) | 등록(sc-domain 속성) — 세부 미확인 | 미확인 | 블로거 자동. robots.txt에 Sitemap 줄 없음 | 해당 없음 | 2026-10-20 |
+
+> 서치어드바이저(searchadvisor.naver.com)는 데스크톱 앱 브라우저 패널에서 열 수 없음(안전 제한) → 사용자가 직접 확인 필요. Search Console에는 이 밖에 hadesyi.tistory.com·ericreview.tistory.com 등 다른 속성도 있음(이 프로젝트 범위 밖).
 
 ## 6. 금지·주의
 
