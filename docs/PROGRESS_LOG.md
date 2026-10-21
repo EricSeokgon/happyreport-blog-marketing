@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-10-21 (8차 세션, 3부) — 외환전문역 교차 발행
+
+**한 일**
+- 사용자 요청("블로그 바로 발행", 외환전문역을 다른 블로그에도)으로 관점을 달리한 교차 글 2건 작성. WP 161(일정·4주 계획)과 겹치지 않게 Blogger는 과락 기준·과목별 공부 포인트, hadesyi는 1종 vs 2종 비교·시험 당일 체크리스트
+- eric Blogger 발행: https://erichlee.blogspot.com/2026/10/12-57-1121.html (라벨 금융자격증·시험자료·외환전문역·한국금융연수원). 원문 `posts_erichlee_blogger.html`, README 이력 추가(캠페인 52건)
+
+**확인한 것**
+- 공개 페이지에서 링크 5개(세일즈 3·WP 161·hadesyi) 확인. Blogger 공개 피드의 라벨 반영이 늦게 보이지만 편집기에는 저장돼 있음
+
+**못 한 것·막힌 것**
+- hadesyi 로그인이 풀려 D4b 미발행(초안 `drafts/2026-11-forex/D4b_hadesyi_forex_compare.html`). Blogger 글의 하데스레포트 링크는 임시로 게시판 목록
+
+**다음 우선순위**
+- hadesyi 로그인 후 D4b 발행 → Blogger 글 링크 교체 → README·posts_hadesyi·BACKLOG D4 갱신
+- 10/23 독학사 수험표 문구 확인·hadesyi 사이트맵 재확인
+
+---
+
 ## 2026-10-21 (8차 세션) — 외환전문역 D4 초안
 
 **한 일**
