@@ -97,7 +97,7 @@
 | 2026-10-14 | [방통대] 간호학과(RN-BSN) 중간과제물 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=416 | 간호학과 중간과제물 |
 | 2026-10-14 | [방통대] 교육학과 중간과제물, 이론 비교·이슈 분석 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=417 | 교육학과 중간과제물 |
 | 2026-10-14 | [방통대] 경영학과 중간과제물, 기업 사례로 이론 적용 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=418 | 경영학과 중간과제물 |
-| 2026-08-17 | [시험자료] 보험심사관리사 기출 160문항 (2026) | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=409 | 보험심사관리사. 10/19 상단에 제6회 시험(10/25) 일정 박스 + D-6 글 링크 |
+| 2026-08-17 | [시험자료] 보험심사관리사 기출 160문항 (2026) | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=409 | 보험심사관리사. 10/19 상단에 제6회 시험(10/25) 일정 박스 + D-6 글 링크, 10/27 시험 종료 박스로 교체 |
 | 2026-08-17 | [면접자료] 2026 하반기 공공기관 체험형 인턴 면접 준비법 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=410 | 한국남동발전 체험형 / 주택금융공사 청년인턴 / 국세청 체납관리단 |
 | 2026-08-17 | [면접자료] 2026 지방직·군무원 면접 직렬별 총정리 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=free&wr_id=411 | 지방직 면접 / 군무원 면접 |
 | 2026-09-02 | [방통대] 2026학년도 2학기 중간과제물 일정·작성 순서·과목별 참고자료 모음 | http://hadesyi.dothome.co.kr/bbs/board.php?bo_table=qa&wr_id=47 | A1, 방송통신 게시판. 10/17 맨 위 제출 종료 안내 추가 |
