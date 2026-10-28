@@ -1,6 +1,6 @@
 # HANDOFF — 다음 세션은 여기서 시작
 
-> 마지막 갱신: 2026-10-27 (9차 세션). 이 문서 하나로 "어디까지 했고, 지금 뭘 해야 하는지"를 5분 안에 파악할 수 있게 유지합니다. 세션이 끝나면 §1·§2를 갱신하고 [PROGRESS_LOG.md](PROGRESS_LOG.md)에 로그를 남기세요.
+> 마지막 갱신: 2026-10-28 (10차 세션). 이 문서 하나로 "어디까지 했고, 지금 뭘 해야 하는지"를 5분 안에 파악할 수 있게 유지합니다. 세션이 끝나면 §1·§2를 갱신하고 [PROGRESS_LOG.md](PROGRESS_LOG.md)에 로그를 남기세요.
 
 ## 0. 먼저 확인할 것 (중요)
 
@@ -21,6 +21,9 @@
 - 접근 방식: 사용자가 데스크톱 앱 브라우저 패널에 WP 관리자·Blogger·hadesyi 로그인을 해 둔 상태에서 작업. WP는 관리자 페이지에서 `/wp-admin/admin-ajax.php?action=rest-nonce`로 받은 nonce로 REST 수정, Blogger는 편집기 HTML 보기의 CodeMirror(`document.querySelector('.CodeMirror').CodeMirror`) 값 교체 후 업데이트, 그누보드는 글수정 화면에서 `#wr_content` 값 + SmartEditor `LOAD_CONTENTS_FIELD` 후 작성완료 클릭
 
 ## 2. 지금 할 일 (날짜순)
+
+**11/1~11/28 매일 3편 발행 계획: [CALENDAR_2026-11.md](CALENDAR_2026-11.md)** — 그날 주제를 3채널에 관점을 달리해 발행하고 표의 상태 칸을 갱신. 아래 날짜 작업(수정)은 달력 §2에도 정리돼 있음.
+
 
 0. **보험심사관리사 제6회 종료 안내(E1)** — 완료(10/27: WP 159 제목 D-6 제거·박스, hadesyi 409 박스 교체). 다음 회차 공고가 나오면 일정 갱신
 1. **독학사** — 10/27 WP 113·145 문구 확인 완료. **11/1 시험 직후**엔 상단에 "시험 종료·11/30 10:00 합격 발표" 안내로 교체(BACKLOG B6)
@@ -46,6 +49,7 @@
 | 파일 | 언제 보나 |
 |---|---|
 | `docs/HANDOFF.md` | 세션 시작 (이 문서) |
+| `docs/CALENDAR_2026-11.md` | 11월 매일 발행 주제·채널별 관점 |
 | `docs/ROADMAP.md` | 무엇을 할지 고를 때 (우선순위·완료 기준·확인한 일정) |
 | `docs/BACKLOG.md` | 글 후보·키워드·링크·상태 |
 | `docs/PUBLISHING_CHECKLIST.md` | 글 쓰고 발행할 때 (규칙·템플릿·SEO 상태표) |
